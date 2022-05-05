@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+
+.mainContact {
+  margin-left: 16vw;
+
+  background-color: rgb(240, 240, 240);
+  width: 85vw;
+  padding-left: 10px;
+}
+
+#contact {
+  background-color: rgb(185, 185, 185);
+}
+
+.thanks {
+  padding-left: 50px;
+  padding-top: 30px;
+  text-align: left;
+  font-family: "Calligraffitti", cursive;
+  font-size: 8.3vw;
+  color: rgb(24, 6, 6);
+}
+
+.connect {
+  font-family: "Raleway", sans-serif;
+  padding-top: 20px;
+  font-size: 3vw;
+}
+
+.profiles {
+  display: flex;
+  padding: 10px 0 0 5px;
+}
+
+.gmail a img {
+  height: 8vw;
+}
+
+.linkedin a img {
+  height: 8vw;
+  padding-left: 20px;
+}
+
+.git a img {
+  padding-left: 20px;
+  height: 8vw;
+}
+
+.insta a img {
+  padding-left: 20px;
+  height: 8vw;
+}
+
+.faceBook a img {
+  padding-left: 20px;
+  height: 8vw;
+}

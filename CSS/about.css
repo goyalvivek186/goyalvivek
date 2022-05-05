@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+/* font-family: 'Roboto Slab', serif; */
+
+.mainAbout {
+  /* margin-left: 235px; */
+  margin-left: 16vw;
+  padding: 30px 0 0 35px;
+  background-color: rgb(240, 240, 240);
+  /* width: 85vw; */
+  /* height: 100vh; */
+  /* position: relative; */
+}
+
+#about {
+  background-color: rgb(185, 185, 185);
+}
+
+.heading {
+  font-size: 2vw;
+  font-family: "Roboto Slab", serif;
+  /* padding-bottom: 5px; */
+  margin-top: 5px;
+}
+
+.education {
+  /* padding-top: 5px; */
+  display: flex;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1vw;
+  /* margin-top: 5px; */
+  /* margin-bottom: 7px; */
+}
+
+.edLeft ul li,
+.edRight ul li,
+.skill ul li {
+  list-style: none;
+  padding-top: 5px;
+}
+
+.edRight {
+  padding-left: 2vw;
+}
+
+.break {
+  margin-top: 17px;
+  height: 1.5px;
+  width: 65vw;
+  background-color: black;
+}
+
+.skill {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1vw;
+}
+
+.subHeading {
+  font-size: 1.5vw;
+  font-family: "Roboto Slab", serif;
+  padding: 2px 0 0 0;
+}
+
+.journal {
+  font-size: 1.5vw;
+  font-family: "Roboto Slab", serif;
+}
+
+.courses {
+  font-family: "Roboto Slab", serif;
+  margin-left: 2vw;
+  font-size: 1.1vw;
+}
+
+.pub {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1vw;
+  padding-left: 1vw;
+}
+
+.projects {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1vw;
+  padding-left: 1vw;
+  max-width: 65vw;
+}
+
+.projects li {
+  margin-bottom: 1vh;
+}
+
+.projects li a {
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+.intern {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1vw;
+  padding-left: 1vw;
+}
+
+.intern .subHeading {
+  display: inline;
+}

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=IBM+Plex+Sans+Arabic:wght@300&family=Raleway:wght@300&family=Roboto+Slab:wght@300&display=swap");
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+/* index.html */
+
+:root {
+  --main-bg-color: rgb(194, 193, 193);
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* a {
+  text-decoration: none;
+  color: black;
+} */
+
+.content {
+  display: flex;
+}
+
+.head {
+  width: 15vw;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  font-size: 2vw;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: bold;
+  position: fixed;
+}
+
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+nav ul li {
+  padding-left: 10px;
+  margin: 30px 0 0 0px;
+}
+
+.main {
+  /* margin-left: 235px; */
+  margin-left: 15vw;
+  background-color: rgb(240, 240, 240);
+  width: 85vw;
+  height: 100vh;
+  display: flex;
+}
+
+.infoContainer {
+  padding: 20vh 15vh 0 15vh;
+}
+
+.hello {
+  font-family: "Roboto Slab", serif;
+  font-size: 5vw;
+}
+
+.name {
+  font-family: "Dancing Script", cursive;
+  font-size: 4vw;
+}
+
+.about {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5vw;
+}
+
+.buttons button {
+  margin: 10px 30px 0 0;
+  padding: 10px;
+  background-color: var(--main-bg-color);
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: bold;
+  font-size: 1.1vw;
+  /* font-style: none; */
+  width: 7.2vw;
+  cursor: pointer;
+  /* text-decoration: none; */
+}
+
+.buttons button a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  height: 70vh;
+}
+/*
+ @media only screen and (max-width: 1628px) {
+  
+  .photo {
+    display: none;
+  }
+
+  .main {
+    display: block;
+  }
+  .infoContainer {
+    margin: auto;
+  }
+} 
+*/

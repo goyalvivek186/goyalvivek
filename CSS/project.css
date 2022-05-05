@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+/* font-family: 'Roboto Slab', serif; */
+
+#project {
+  background-color: rgb(185, 185, 185);
+}
+
+.mainP {
+  margin-left: 16vw;
+  /* margin-bottom: 2vh; */
+  font-family: "Roboto Slab", serif;
+  padding: 25px 0 0 35px;
+  background-color: rgb(240, 240, 240);
+  width: 85vw;
+  height: 100vh;
+}
+
+.first,
+.second,
+.attendance {
+  display: flex;
+}
+
+.first img {
+  width: 30vw;
+  height: auto;
+}
+
+.second {
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+}
+
+.second img {
+  width: 40vw;
+  height: auto;
+}
+
+.heading {
+  font-size: 2vw;
+  font-family: "Roboto Slab", serif;
+  /* padding-bottom: 5px; */
+  margin-top: 5px;
+  /* text-align: center; */
+}
+
+.snake,
+.ticktack {
+  width: 40vw;
+}
+
+.game {
+  margin-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7vw;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.snake .buttons .btn {
+  border: solid green;
+  color: rgb(1, 82, 1);
+  background-color: rgb(109, 246, 59);
+}
+
+.ticktack .buttons .btn {
+  border: solid rgb(58, 22, 58);
+  color: rgb(58, 22, 58);
+  background-color: white;
+}
+
+.second .buttons {
+  margin-left: 7vw;
+}
+
+.covid .buttons .btn {
+  border: solid rgb(103, 41, 2);
+  color: rgb(58, 22, 58);
+  background-color: rgb(99, 200, 243);
+}
+
+.face img {
+  margin-left: 3vw;
+  border: 3.5px solid black;
+  width: 27vw;
+  height: auto;
+}
+
+.face .heading {
+  margin-left: 3vw;
+}
+
+.face .buttons .btn {
+  border: solid gray;
+  color: black;
+}
+
+.attendance .face1 {
+  /* margin-left: 3vw; */
+  border: 3.5px solid black;
+  width: 30vw;
+  height: auto;
+}
+.face2 {
+  /* display: none; */
+  /* width: 27vw;
+  height: 30vh; */
+  max-height: 30vh;
+  max-width: 27vw;
+  border: 3.5px solid rgb(150, 149, 149);
+}
+
+.third .buttons {
+  margin: auto;
+  padding-left: 2vw;
+}
+
+.third {
+  margin-right: 10vw;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.attendance .buttons .btn {
+  background-color: white;
+  border: solid rgb(0, 0, 0);
+  color: black;
+}
