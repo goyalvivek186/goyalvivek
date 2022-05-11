@@ -109,9 +109,14 @@ nav ul li {
   color: black;
 }
 
-img {
+/* img {
+  height: 70vh;
+} */
+
+img.vivekPic {
   height: 70vh;
 }
+
 /*
  @media only screen and (max-width: 1628px) {
   
@@ -136,8 +141,9 @@ img {
     display: none;
   } */
   .vivekPic {
-    margin: auto;
-    height: 34vh;
+    /* margin: auto;
+    height: 34vh; */
+    display: none;
   }
   .infoContainer {
     padding: 10vh 20vh 0 8vh;

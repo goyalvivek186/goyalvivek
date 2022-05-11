@@ -104,12 +104,19 @@
   color: black;
 }
 
+/* .attendance .face1 {
+  border: 3.5px solid black;
+  width: 30vw;
+  height: auto;
+} */
+
 .attendance .face1 {
   /* margin-left: 3vw; */
   border: 3.5px solid black;
   width: 30vw;
   height: auto;
 }
+
 .face2 {
   /* display: none; */
   /* width: 27vw;
