@@ -90,7 +90,7 @@
 
 .face img {
   margin-left: 3vw;
-  border: 2px solid black;
+  border: 4px solid black;
   width: 27vw;
   height: auto;
 }
@@ -104,26 +104,17 @@
   color: black;
 }
 
-/* .attendance .face1 {
-  border: 3.5px solid black;
-  width: 30vw;
-  height: auto;
-} */
-
 .attendance .face1 {
   /* margin-left: 3vw; */
-  border: 2px solid black;
+  border: 4px solid black;
   width: 30vw;
   height: auto;
 }
 
 .face2 {
-  /* display: none; */
-  /* width: 27vw;
-  height: 30vh; */
   max-height: 30vh;
   max-width: 27vw;
-  border: 2px solid rgb(150, 149, 149);
+  border: 4px solid rgb(150, 149, 149);
 }
 
 .third .buttons {
@@ -144,4 +135,19 @@ figcaption {
   background-color: white;
   border: solid rgb(0, 0, 0);
   color: black;
+}
+
+@media screen and (orientation: portrait) {
+  .attendance .face1 {
+    /* margin-left: 3vw; */
+    border: 2px solid black;
+    width: 30vw;
+    height: auto;
+  }
+
+  .face2 {
+    max-height: 30vh;
+    max-width: 27vw;
+    border: 2px solid rgb(150, 149, 149);
+  }
 }

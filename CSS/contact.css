@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 .mainContact {
-  margin-left: 16vw;
+  margin-left: 17vw;
 
   background-color: rgb(240, 240, 240);
   width: 85vw;
@@ -13,11 +13,14 @@
 }
 
 .thanks {
-  padding-left: 50px;
-  padding-top: 30px;
-  text-align: left;
-  font-family: "Calligraffitti", cursive;
-  font-size: 8.3vw;
+  /* margin: auto; */
+  padding-left: 2vw;
+  padding-top: 7vh;
+  /* text-align: left; */
+
+  font-family: "Satisfy", cursive;
+  font-size: 7.5vw;
+
   color: rgb(24, 6, 6);
 }
 
@@ -38,20 +41,24 @@
 
 .linkedin a img {
   height: 8vw;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .git a img {
-  padding-left: 20px;
+  padding-left: 30px;
   height: 8vw;
 }
 
 .insta a img {
-  padding-left: 20px;
+  padding-left: 30px;
   height: 8vw;
 }
 
 .faceBook a img {
-  padding-left: 20px;
+  padding-left: 30px;
   height: 8vw;
 }
+
+/* @media screen and (orientation: portrait) 
+{
+} */
