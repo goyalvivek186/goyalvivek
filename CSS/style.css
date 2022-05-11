@@ -77,10 +77,23 @@ nav ul li {
   font-family: "Raleway", sans-serif;
   font-size: 2.5vw;
 }
-
+/*
 .buttons button {
   margin: 10px 30px 0 0;
   padding: 10px;
+  background-color: var(--main-bg-color);
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: bold;
+  font-size: 1.1vw;
+  width: 7.2vw;
+  cursor: pointer;
+
+}
+*/
+.buttons button {
+  margin: 3vh 2vw 0 0;
+  padding: 1vh 0.5vw 1vh 0.5vw;
+  /* padding: 1vh; */
   background-color: var(--main-bg-color);
   font-family: "IBM Plex Sans Arabic", sans-serif;
   font-weight: bold;
@@ -119,7 +132,14 @@ img {
   .main {
     display: block;
   }
-  .photo {
+  /* .photo {
     display: none;
+  } */
+  .vivekPic {
+    margin: auto;
+    height: 34vh;
+  }
+  .infoContainer {
+    padding: 10vh 20vh 0 8vh;
   }
 }
