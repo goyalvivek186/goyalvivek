@@ -4,3 +4,7 @@ screen.orientation.addEventListener("change", function () {
   }
   console.log("Current orientation is " + screen.orientation.type);
 });
+
+if (screen.orientation.type == "portrait-primary") {
+  alert("For better experience, change the screen orientation to Landscape");
+}
