@@ -96,14 +96,20 @@
   padding-left: 1vw;
 }
 
+.ach {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1vw;
+  padding-left: 1vw;
+}
+
 .intern .subHeading {
   display: inline;
 }
 
 @media screen and (orientation: portrait) {
   .break {
-    margin-top: 1vh;
-    height: 1px;
+    margin-top: 0.6vh;
+    height: 0.8px;
   }
 
   .mainAbout {
