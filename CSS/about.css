@@ -3,13 +3,9 @@
 /* font-family: 'Roboto Slab', serif; */
 
 .mainAbout {
-  /* margin-left: 235px; */
   margin-left: 16vw;
   padding: 30px 0 0 35px;
   background-color: rgb(240, 240, 240);
-  /* width: 85vw; */
-  /* height: 100vh; */
-  /* position: relative; */
 }
 
 #about {
@@ -44,7 +40,7 @@
 }
 
 .break {
-  margin-top: 1vh;
+  margin-top: 17px;
   height: 1.5px;
   width: 65vw;
   background-color: black;
@@ -102,4 +98,16 @@
 
 .intern .subHeading {
   display: inline;
+}
+
+@media screen and (orientation: portrait) {
+  .break {
+    margin-top: 1vh;
+    height: 1px;
+  }
+
+  .mainAbout {
+    margin-left: 10vw;
+    padding: 5vh 0 0 35px;
+  }
 }
