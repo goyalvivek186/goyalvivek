@@ -114,3 +114,12 @@ img {
   }
 } 
 */
+
+@media screen and (orientation: portrait) {
+  .main {
+    display: block;
+  }
+  .photo {
+    display: none;
+  }
+}
