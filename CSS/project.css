@@ -90,7 +90,7 @@
 
 .face img {
   margin-left: 3vw;
-  border: 3.5px solid black;
+  border: 2px solid black;
   width: 27vw;
   height: auto;
 }
@@ -112,7 +112,7 @@
 
 .attendance .face1 {
   /* margin-left: 3vw; */
-  border: 3.5px solid black;
+  border: 2px solid black;
   width: 30vw;
   height: auto;
 }
@@ -123,7 +123,7 @@
   height: 30vh; */
   max-height: 30vh;
   max-width: 27vw;
-  border: 3.5px solid rgb(150, 149, 149);
+  border: 2px solid rgb(150, 149, 149);
 }
 
 .third .buttons {
@@ -137,6 +137,7 @@
 
 figcaption {
   text-align: center;
+  font-size: 1.1vw;
 }
 
 .attendance .buttons .btn {
