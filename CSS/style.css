@@ -119,22 +119,6 @@ img.vivekPic {
   height: 58vh;
 }
 
-/*
- @media only screen and (max-width: 1628px) {
-  
-  .photo {
-    display: none;
-  }
-
-  .main {
-    display: block;
-  }
-  .infoContainer {
-    margin: auto;
-  }
-} 
-*/
-
 @media screen and (orientation: portrait) {
   .main {
     display: block;
@@ -142,14 +126,19 @@ img.vivekPic {
   /* .photo {
     display: none;
   } */
-  .vivekPic {
+  img.vivekPic {
     margin: auto;
-    width: 80vw;
     height: auto;
+    width: 80vw;
 
     /* display: none; */
   }
   .infoContainer {
-    padding: 10vh 20vh 0 8vh;
+    padding: 5vh 10vw 0 8vw;
+  }
+  .buttons button {
+    margin: 1vh 2vw 0 0;
+    padding: 1vh 0.5vw 1vh 0.5vw;
+    font-size: 1.5vw;
   }
 }
