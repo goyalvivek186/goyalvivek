@@ -114,7 +114,9 @@ nav ul li {
 } */
 
 img.vivekPic {
-  height: 70vh;
+  padding-top: 10vh;
+  /* background-color: aqua; */
+  height: 58vh;
 }
 
 /*
@@ -141,9 +143,11 @@ img.vivekPic {
     display: none;
   } */
   .vivekPic {
-    /* margin: auto;
-    height: 34vh; */
-    display: none;
+    margin: auto;
+    width: 80vw;
+    height: auto;
+
+    /* display: none; */
   }
   .infoContainer {
     padding: 10vh 20vh 0 8vh;
