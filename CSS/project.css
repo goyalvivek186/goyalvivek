@@ -157,4 +157,17 @@ figcaption {
     width: 27vw;
     height: auto;
   }
+
+  .mainP {
+    padding: 16px 0 0 16px;
+  }
+
+  .heading {
+    margin-top: 0;
+  }
+
+  .second {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
 }

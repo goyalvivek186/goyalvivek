@@ -114,7 +114,7 @@ nav ul li {
 } */
 
 img.vivekPic {
-  padding-top: 10vh;
+  padding-top: 8vh;
   /* background-color: aqua; */
   height: 58vh;
 }
@@ -135,10 +135,26 @@ img.vivekPic {
   }
   .infoContainer {
     padding: 5vh 10vw 0 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .buttons button {
     margin: 1vh 2vw 0 0;
     padding: 1vh 0.5vw 1vh 0.5vw;
     font-size: 1.5vw;
   }
+  .hb button {
+    width: 45px;
+  }
+  nav ul li {
+    font-size: 9px;
+    padding-left: 1vw;
+    margin: 2vh 0 0 0;
+  }
+
+  /* .photo {
+    display: none;
+  } */
 }

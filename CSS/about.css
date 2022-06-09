@@ -113,7 +113,8 @@
   }
 
   .mainAbout {
-    margin-left: 10vw;
-    padding: 5vh 0 0 35px;
+    /* margin-left: 10vw; */
+    /* padding: 5vh 0 0 35px; */
+    padding: 16px 0 0 16px;
   }
 }
