@@ -70,3 +70,7 @@
     padding-left: 0;
   }
 }
+
+.intern ol li {
+  display: block;
+}
